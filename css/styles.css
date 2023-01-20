@@ -1,28 +1,43 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 }
+
 .container-fluid{
-	padding: 3% 15%
+	padding: 3% 15% 0%;
 }
+
 h1{
 	font-size: 3.5rem;
 	line-height: 1.5;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 900
 }
+
 #title{
 	background-color:#ff4c68;
 	color:#fff
 }
 
+.main-text {
+	padding-top: 3%
+}
+
 .phone-image {
-	width:60%;
-	transform:rotate(15deg);
+	transform: rotate(20deg);
+	position: relative;
+	min-width: 50%;
+	max-width: 50%;
+	margin: 10% 25% 0%;
+	top: 1%;
+}
+
+#title {
+	height:75%
 }
 
 /* Navigation Bar */
 .navbar {
-	padding-bottom: 4.5rem
+	padding-bottom: 2%
 }
 
 .navbar-brand {
@@ -56,6 +71,9 @@ h1{
 
 #features {
 	padding: 7% 15%;
+	background-color: #fff;
+	position:relative;
+	z-index: 1
 }
 
 #features p {
@@ -100,4 +118,68 @@ h1{
 
 .carousel-item {
 	padding: 7% 15%;
+}
+
+/* CARDS SECTION */
+
+#pricing {
+	padding: 5% 15%;
+	text-align: center
+}
+
+.cards-subscription{
+	margin-top: 3%;
+}
+
+.cards-subscription h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 1.5rem
+}
+
+.cards-subscription h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 3rem
+}
+
+#pricing h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 3rem
+}
+
+#pricing p {
+	color: #BFBFBF
+}
+
+.card {
+	margin-bottom:3%;
+}
+
+#cta {
+	background-color: #ff4c68;
+	text-align: center;
+}
+
+#cta h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	color: #fff;
+	font-size: 3.5rem;
+	line-height: 1.5
+}
+
+#cta button {
+	margin: 3% 3% 3% 0%;
+}
+
+#footer {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+#footer i {
+	margin: 1% .5%;
 }
