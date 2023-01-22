@@ -1,185 +1,159 @@
-body{
-	font-family: 'Montserrat', sans-serif;
+body, h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
 }
 
-.container-fluid{
-	padding: 3% 15% 0%;
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding-top: 3%
 }
 
-h1{
-	font-size: 3.5rem;
-	line-height: 1.5;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 900
+/* Title Section */
+
+#title {
+    background-color: #ff4c68;
+    color: #fff
 }
 
-#title{
-	background-color:#ff4c68;
-	color:#fff
+.container-fluid {
+    padding: 3% 15% 0%;
 }
 
-.main-text {
-	padding-top: 3%
+.content-Div {
+    padding-top: 3%
 }
 
 .phone-image {
-	transform: rotate(20deg);
-	position: relative;
-	min-width: 50%;
-	max-width: 50%;
-	margin: 10% 25% 0%;
-	top: 1%;
-}
-
-#title {
-	height:75%
+    transform: rotate(20deg);
+    position: relative;
+    min-width: 50%;
+    max-width: 50%;
+    margin: 10% 25% 0%;
+    top: 1%;
 }
 
 /* Navigation Bar */
-.navbar {
-	padding-bottom: 2%
-}
 
 .navbar-brand {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 2.5rem;
-	font-weight:bold
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold
 }
 
 .nav-item {
-	padding: 0 18px;
-}
-
-.nav-link {
-	font-family: 'Montserrat-Light', sans-serif;
-	font-size: 1.2rem
+    padding: 0 18px;
+    font-family: 'Montserrat-Light', sans-serif;
+    font-size: 1.2rem
 }
 
 .download-button {
-	margin:5% 3% 5% 0%;
+    margin: 5% 3% 5% 0%;
 }
 
+/* Feature Section */
+
 .feature-icons {
-	color: #ef8172;
-	font-size: 4rem;
-	padding: 0% 0% 5% 0%;
+    color: #ef8172;
+    font-size: 4rem;
+    padding: 0% 0% 5% 0%;
 }
 
 .feature-icons:hover {
-	color: #ff4c68
+    color: #ff4c68
 }
 
 #features {
-	padding: 7% 15%;
-	background-color: #fff;
-	position:relative;
-	z-index: 1
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1
 }
 
 #features p {
-	color: #BFBFBF
+    color: #BFBFBF
 }
 
 #features h3 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	font-size: 1.5rem
+    font-weight: bold;
+    font-size: 1.5rem
 }
 
 /* TESTIMONIALS SECTION */
 
 #testimonials {
-	background-color: #ef8172;
-	color:#fff
+    background-color: #ef8172;
+    color: #fff
 }
 
-#testimonials h2 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	font-size: 3rem
+#testimonials h2, .cards-subscription h2, #pricing h2 {
+    font-weight: bold;
+    font-size: 3rem
 }
 
 .testimonial-image {
-	border-radius: 50%;
-	width: 10%;
-	margin:20px
+    border-radius: 50%;
+    width: 10%;
+    margin: 20px
 }
 
 #press {
-	background-color: #ef8172;
-	text-align: center;
-	padding: 0% 0% 2% 0%;
+    background-color: #ef8172;
+    text-align: center;
+    padding: 0% 0% 2% 0%;
 }
 
 .press-images {
-	width: 8%;
-	margin: 0% 2%;
+    width: 8%;
+    margin: 0% 2%;
 }
 
 .carousel-item {
-	padding: 7% 15%;
+    padding: 7% 15%;
 }
 
 /* CARDS SECTION */
 
 #pricing {
-	padding: 5% 15%;
-	text-align: center
+    padding: 5% 15%;
+    text-align: center
 }
 
-.cards-subscription{
-	margin-top: 3%;
+.cards-subscription, .card {
+    margin-top: 3%;
 }
 
 .cards-subscription h3 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	font-size: 1.5rem
-}
-
-.cards-subscription h2 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	font-size: 3rem
-}
-
-#pricing h2 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	font-size: 3rem
+    font-weight: bold;
+    font-size: 1.5rem
 }
 
 #pricing p {
-	color: #BFBFBF
-}
-
-.card {
-	margin-bottom:3%;
+    color: #BFBFBF
 }
 
 #cta {
-	background-color: #ff4c68;
-	text-align: center;
+    background-color: #ff4c68;
+    text-align: center;
 }
 
-#cta h3{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bolder;
-	color: #fff;
-	font-size: 3.5rem;
-	line-height: 1.5
+#cta h3 {
+    font-weight: bolder;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5
 }
 
 #cta button {
-	margin: 3% 3% 3% 0%;
+    margin: 3% 3% 3% 0%;
 }
 
 #footer {
-	margin-top: 2%;
-	margin-bottom: 2%;
-	text-align: center;
+margin-top: 2%;
+margin-bottom: 2%;
+text-align: center;
 }
 
 #footer i {
-	margin: 1% .5%;
+    margin: 1% .5%;
 }
