@@ -20,6 +20,12 @@ h1 {
     padding: 3% 15% 0%;
 }
 
+@media only screen (max-device-width: 400px) {
+    .container-fluid {
+        padding: 3% 0% 0%;
+    }
+}
+
 .content-Div {
     padding-top: 3%
 }
