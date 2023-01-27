@@ -3,11 +3,92 @@ body, h1, h2, h3 {
 }
 
 h1 {
-    font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
     padding-top: 3%
 }
+
+h2, h3 {
+    font-weight: bold;
+}
+
+#cta h3 {
+    font-weight: bolder;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5
+}
+
+@media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1.5rem
+    }
+    .container-fluid {
+        padding: 3% 15% 0%;
+    }
+    .feature-icons {
+        font-size: 4rem;
+        padding: 0% 0% 5% 0%;
+    }
+    #cta h3 {
+        font-weight: bolder;
+        color: #fff;
+        font-size: 3.5rem;
+        line-height: 1.5
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.3rem
+    }
+    .feature-icons {
+        font-size: 3rem;
+        padding: 0% 0% 5% 0%;
+    }
+    #cta h3 {
+        font-weight: bolder;
+        color: #fff;
+        font-size: 1.5rem;
+        line-height: 1.5
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 1rem
+    }
+    .feature-icons {
+        font-size: 2rem;
+        padding: 0% 0% 5% 0%;
+    }
+    #cta h3 {
+        font-weight: bolder;
+        color: #fff;
+        font-size: 1rem;
+        line-height: 1.5
+    }
+}
+
+
 
 /* Title Section */
 
@@ -18,12 +99,6 @@ h1 {
 
 .container-fluid {
     padding: 3% 15% 0%;
-}
-
-@media only screen (max-device-width: 400px) {
-    .container-fluid {
-        padding: 3% 0% 0%;
-    }
 }
 
 .content-Div {
@@ -61,8 +136,6 @@ h1 {
 
 .feature-icons {
     color: #8b9dc3;
-    font-size: 4rem;
-    padding: 0% 0% 5% 0%;
 }
 
 .feature-icons:hover {
@@ -80,21 +153,11 @@ h1 {
     color: #BFBFBF
 }
 
-#features h3 {
-    font-weight: bold;
-    font-size: 1.5rem
-}
-
 /* TESTIMONIALS SECTION */
 
 #testimonials {
     background-color: #8b9dc3;
     color: #fff
-}
-
-#testimonials h2, .cards-subscription h2, #pricing h2 {
-    font-weight: bold;
-    font-size: 3rem
 }
 
 .testimonial-image {
@@ -141,13 +204,6 @@ h1 {
 #cta {
     background-color: #3b5998;
     text-align: center;
-}
-
-#cta h3 {
-    font-weight: bolder;
-    color: #fff;
-    font-size: 3.5rem;
-    line-height: 1.5
 }
 
 #cta button {
