@@ -15,7 +15,6 @@ h2, h3 {
 #cta h3 {
     font-weight: bolder;
     color: #fff;
-    font-size: 3.5rem;
     line-height: 1.5
 }
 
@@ -84,10 +83,12 @@ h2, h3 {
         font-weight: bolder;
         color: #fff;
         font-size: 1rem;
-        line-height: 1.5
+        line-height: 1.5;
+    }
+    .download-button {
+        font-size: small;
     }
 }
-
 
 
 /* Title Section */
@@ -103,6 +104,10 @@ h2, h3 {
 
 .content-Div {
     padding-top: 3%
+}
+
+.download-button {
+    margin: 3% 3% 3% 0%;
 }
 
 .phone-image {
@@ -126,10 +131,6 @@ h2, h3 {
     padding: 0 18px;
     font-family: 'Montserrat-Light', sans-serif;
     font-size: 1.2rem
-}
-
-.download-button {
-    margin: 5% 3% 5% 0%;
 }
 
 /* Feature Section */
@@ -192,11 +193,6 @@ h2, h3 {
     margin-top: 3%;
 }
 
-.cards-subscription h3 {
-    font-weight: bold;
-    font-size: 1.5rem
-}
-
 #pricing p {
     color: #BFBFBF
 }
@@ -204,10 +200,6 @@ h2, h3 {
 #cta {
     background-color: #3b5998;
     text-align: center;
-}
-
-#cta button {
-    margin: 3% 3% 3% 0%;
 }
 
 #footer {
